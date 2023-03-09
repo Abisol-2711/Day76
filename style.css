@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+img {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  width: 90%;
+  height: 80vh;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.slider-inner {
+  position: absolute;
+  top: 2%;
+  left: 0px;
+  width: 500%;
+  height: 100%;
+  display: grid;
+  gap: 1rem;
+  pointer-events: none;
+}
